@@ -14,7 +14,7 @@ define(function(){
 
 				subscriber(data);
 
-			});
+			}); 
 
 		},
 		subscribe: function(topic, callback){
