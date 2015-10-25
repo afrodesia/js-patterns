@@ -2,14 +2,14 @@ require(
 
 	// Loads modules 
 	[
-
+	'jquery',
 	'factory/init',
 	'pubsub/init',
 	'strategy/init' 
 
 	],
 
-	function(factory, pubsub, strategy){
+	function(factory, pubsub, strategy, jquery){
 		'use strict';
 
 		var examples = {

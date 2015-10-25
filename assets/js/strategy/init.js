@@ -11,7 +11,8 @@ define(function(require){
 
 			validator = new Strategy();
 			
-			console.log(validator.selectValidator(telValidator).validate(09999199990));	
+			console.log(validator.selectValidator(telValidator).validate(09999199990));
+			console.log(validator.selectValidator(emailValidator).validate('test@me.com'));		
 		}
 	};
 });
