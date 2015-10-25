@@ -647,6 +647,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/js\/pubsub\/min\/pubsub-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/pubsub\/min\/pubsub-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/pubsub\/min\/min\/pubsub-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/pubsub\/min\/pubsube-min.js": {
 		"fileType": 64,
 		"ignore": 1,

@@ -1,1 +1,1 @@
-define(function(i){"use strict";var s=i("pubsub/pubsub");s.subscribe("atopic",function(i){console.log("atopic was published with data: "+i)})});
+define(function(s){"use strict";var i=s("pubsub/pubsub"),o;o=i.subscribe("atopic",function(s){console.log("atopic was published with data: "+s.something),o.dispose()})});
