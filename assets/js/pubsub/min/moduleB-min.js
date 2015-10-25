@@ -1,0 +1,1 @@
+define(function(u){"use strict";var t=u("pubsub/pubsub");return{publishEvent:function(){var u={something:"some data"};t.publish("atopic",u)}}});

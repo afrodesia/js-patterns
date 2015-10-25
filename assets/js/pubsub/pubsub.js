@@ -9,11 +9,8 @@ define(function(){
 			if(!subscribers[topic]){
 				return;
 			}
-
-			subscribers[topic].foreach(function(subscriber){
-
+			subscribers[topic].forEach(function(subscriber){
 				subscriber(data);
-
 			}); 
 
 		},

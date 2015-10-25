@@ -1,0 +1,1 @@
+require(["factory/init","pubsub/init"],function(i,n){"use strict";var t={factory:i,pubsub:n};window.runExample=function(i){t[i].init()}});
