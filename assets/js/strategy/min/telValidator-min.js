@@ -1,0 +1,1 @@
+define(function(){"use strict";return{validate:function(t){return/^[0-9]{10}$/g.test(t)}}});

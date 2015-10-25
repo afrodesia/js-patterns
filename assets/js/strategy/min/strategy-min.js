@@ -1,0 +1,1 @@
+define(function(){"use strict";var t=function(){};return t.prototype.selectValidator=function(t){return this.validator=t,this},t.prototype.validate=function(t){if(this.validator)return this.validator.validate(t);throw"No validator selected"},t});

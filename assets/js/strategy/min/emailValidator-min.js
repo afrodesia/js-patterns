@@ -1,0 +1,1 @@
+define(function(){"use strict";return{validate:function(n){return 1!==n.indexOf("@")}}});

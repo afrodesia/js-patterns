@@ -1,0 +1,1 @@
+define(function(t){"use strict";return{init:function(){var e=t("strategy/strategy"),a=t("strategy/telValidator"),i=t("strategy/emailValidator"),r;r=new e,console.log(r.selectValidator(a).validate(9999199990))}}});
