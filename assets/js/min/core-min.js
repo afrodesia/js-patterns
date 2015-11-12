@@ -1,1 +1,1 @@
-require(["jquery","factory/init","pubsub/init","strategy/init"],function(t,i,n,r){"use strict";var u={factory:t,pubsub:i,strategy:n};window.runExample=function(t){u[t].init()}});
+require(["jquery","factory/init","pubsub/init","strategy/init","observer/init"],function(i,t,r,e,n){"use strict";var u={factory:i,pubsub:t,strategy:r,observer:e};window.runExample=function(i){u[i].init()}});

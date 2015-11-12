@@ -1,0 +1,1 @@
+define(function(){"use strict";var t=function(){this.observers=[]};return t.prototype.add=function(t){this.observers.push(t)},t.prototype.remove=function(t){this.observers=this.observers.filter(function(e){return e!==t})},t.prototype.get=function(){return this.observers},t});

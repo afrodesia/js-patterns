@@ -1,0 +1,1 @@
+define(function(){"use strict";var n=function(n){this.name=n};return n.prototype.notify=function(n,t){console.log("The event was",'"'+n.name+'" ',"the data was",t," and I am ",this.name)},n});
